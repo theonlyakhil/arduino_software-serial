@@ -20,6 +20,6 @@ void setup() {
 }
 
 void loop() { // run over and over
-  mySerial.print("hello");
+  mySerial.write("0");
   delay(100);
 }
